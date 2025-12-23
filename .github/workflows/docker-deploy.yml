@@ -38,3 +38,4 @@ jobs:
           docker build -t ${{ secrets.DOCKER_USERNAME }}/myimage:prod .
           docker push ${{ secrets.DOCKER_USERNAME }}/myimage:prod
   
+ 
